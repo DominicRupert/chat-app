@@ -5,6 +5,7 @@ import io from "socket.io-client";
 import React from "react";
 import Home from "./pages/home";
 
+// @ts-ignore
 const socket = io.connect("http://localhost:4000");
 
 function App() {
